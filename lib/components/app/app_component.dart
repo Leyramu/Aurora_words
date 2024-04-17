@@ -44,8 +44,8 @@ class AppComponentState extends State<AppComponent> {
             centerTitle: true,
             shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(20.0),
-                bottomRight: Radius.circular(20.0),
+                // bottomLeft: Radius.circular(20.0),
+                // bottomRight: Radius.circular(20.0),
               ),
             )
           ),

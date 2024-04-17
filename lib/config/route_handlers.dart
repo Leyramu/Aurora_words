@@ -1,11 +1,11 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_2/components/pages/not_found/not_found.dart';
-import 'package:flutter_2/components/pages/room_detail/index.dart';
+import 'package:flutter_2/pages/not_found.dart';
+import 'package:flutter_2/pages/room_detail/index.dart';
 
-import '../components/pages/home/index.dart';
-import '../components/pages/login/login.dart';
-import '../components/pages/register/register.dart';
+import '../pages/home/index.dart';
+import '../pages/login.dart';
+import '../pages/register.dart';
 
 Handler homeHandler = Handler(
     handlerFunc: (BuildContext? context, Map<String, List<String>> params) {
